@@ -47,7 +47,7 @@ function Navigation(){
                         </ItemList>
                         <ItemList onClick={() => setShowMobileMenu(!showMobileMenu)}>
                             <Link to="/public/iniciosesion">
-                                {isAuthenticated?'Mi Perfil':'Login'}
+                                {isAuthenticated?'Mi Perfil':'  Login  '}
                             </Link>
                         </ItemList>
                     </List>
