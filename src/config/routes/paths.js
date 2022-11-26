@@ -1,0 +1,10 @@
+export const HOME = '/';
+export const PUBLIC = '/public';
+export const LOGIN = '/public/iniciosesion';
+export const REGISTER = '/public/registro';
+export const FIXTURE = '/partidos';
+export const RANKING = '/ranking';
+export const PRIVATE = '/private';
+export const PREDICTIONS = '/private/predicciones';
+export const PROFILE = '/private/perfil';
+export const LOGOUT = '/private/cerrarsesion';
