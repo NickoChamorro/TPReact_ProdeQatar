@@ -9,7 +9,7 @@ export const HeaderBar = styled.div`
     margin: 0;
     padding: 0;
     background: ${(props)=>props.theme.colors.whiteBg};
-    z-index: 1;
+    z-index: 2;
     @media (min-width: 1000px){
         justify-content: space-around;
     }  
@@ -59,6 +59,7 @@ export const List = styled.ul`
     justify-content: space-between;
     list-style: none;
     margin-right: 2rem;
+    z-index: 2;
     @media (max-width: 900px){
         background: linear-gradient(to bottom, ${(props)=>props.theme.colors.greyBg}, ${(props)=>props.theme.colors.lightBg});
         position: absolute;
@@ -148,4 +149,16 @@ export const BoxButton = styled.div`
             margin-right: 0.5rem;
         }
     }
+`
+export const ContainerButton = styled.div`
+    position: relative;
+    display: flex;
+    margin-left: 2.5em;
+    transition: all .6s ease;
+    a:hover{
+        color: ${(props)=>props.theme.colors.whiteBg};
+    }
+    @media (max-width: 900px) {
+        margin-left: 0; 
+    }    
 `

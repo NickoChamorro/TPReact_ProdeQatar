@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useContextProvider } from "../../contexts/authContext"
+import { useContextProvider } from "../../contexts/authContext";
 
 function Login(){
     const {login} = useContextProvider();

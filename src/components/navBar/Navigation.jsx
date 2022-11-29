@@ -4,14 +4,19 @@ import { IconContext } from 'react-icons';
 import { FaBars } from 'react-icons/fa'
 import imgLogo from '../../img/LogoCatarSinFondo.png';
 import imgTitle from '../../img/TituloQatar2.png';
-import { BoxButton, HeaderBar, ItemList, List, Logo, LogoImg, Title, TitleContainer, TitleImg } from "./NavStyle";
+import { BoxButton, HeaderBar, ItemList, List, Logo, LogoImg, Title, TitleContainer, TitleImg, ContainerButton } from "./NavStyle";
 import { useState } from "react";
 import { useContextProvider } from "../../contexts/authContext";
+import Button from "../commons/button/Button.jsx";
 
 function Navigation(){
 
     const [showMobileMenu, setShowMobileMenu] = useState(false);
     const {isAuthenticated} = useContextProvider();
+
+    function botonShowMobileMenu(){
+        setShowMobileMenu(!showMobileMenu)
+    }
 
     return(
         <>
@@ -45,12 +50,12 @@ function Navigation(){
                         <ItemList onClick={() => setShowMobileMenu(!showMobileMenu)}>
                             <Link to="/private/predicciones">Predicciones</Link>
                         </ItemList>
-                        <ItemList onClick={() => setShowMobileMenu(!showMobileMenu)}>
-                            <Link to="/public/iniciosesion">
-                                {isAuthenticated?'Mi Perfil':'Login'}
-                            </Link>
-                        </ItemList>
+                        <ContainerButton>
+                            <Button action={botonShowMobileMenu} string={isAuthenticated?'Mi Perfil':'Login'} route='/public/iniciosesion'/>
+                        </ContainerButton>      
                     </List>
+
+                    
                     
                 </IconContext.Provider>   
             </HeaderBar>     

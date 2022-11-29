@@ -8,6 +8,9 @@ const theme = {
         greyBg: "#dfe6e9",
         whiteBg: "white",
         black: "black",
+        cardTitleBg: "rgba( 149, 20, 52, 0.65 )",
+        cardBg: "rgba( 149, 20, 52, 0.30 )",
+        cardShadow: "rgba( 159, 20, 52, 0.37 )",
     }
 };
 
