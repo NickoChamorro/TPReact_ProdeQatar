@@ -53,8 +53,8 @@
                 "stadium": "Jor", 
                 "player1": "P.BAJOS", 
                 "player2": "QATAR",
-                "score1": "",
-                "score2": "", 
+                "score1": "2",
+                "score2": "0", 
                 "position1": "", 
                 "position2": ""
             },
@@ -64,8 +64,8 @@
                 "stadium": "Doha", 
                 "player1": "ECUADOR", 
                 "player2": "SENEGAL",
-                "score1": "",
-                "score2": "", 
+                "score1": "1",
+                "score2": "2", 
                 "position1": "", 
                 "position2": ""
             }
@@ -464,8 +464,8 @@
                 "stadium": "Al Wakrah", 
                 "player1": "CAMERUN", 
                 "player2": "SERBIA",
-                "score1": "",
-                "score2": "", 
+                "score1": "3",
+                "score2": "3", 
                 "position1": "", 
                 "position2": ""
             },
@@ -475,8 +475,8 @@
                 "stadium": "Doha", 
                 "player1": "BRASIL", 
                 "player2": "SUIZA",
-                "score1": "",
-                "score2": "", 
+                "score1": "1",
+                "score2": "0", 
                 "position1": "", 
                 "position2": ""
             },
@@ -537,8 +537,8 @@
                 "stadium": "Doha", 
                 "player1": "COREA S.", 
                 "player2": "GHANA",
-                "score1": "",
-                "score2": "", 
+                "score1": "2",
+                "score2": "3", 
                 "position1": "", 
                 "position2": ""
             },
@@ -548,8 +548,8 @@
                 "stadium": "Lusail", 
                 "player1": "PORTUGAL", 
                 "player2": "URUGUAY",
-                "score1": "",
-                "score2": "", 
+                "score1": "2",
+                "score2": "0", 
                 "position1": "", 
                 "position2": ""
             },

@@ -17,6 +17,9 @@ export const CardFlag1 = styled.div`
     padding: 0;
     margin: 0;
     min-height: 1.875rem;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
 `;
 
 export const CardFlag2 = styled.div`
@@ -25,6 +28,9 @@ export const CardFlag2 = styled.div`
     padding: 0;
     margin: 0;
     min-height: 1.875rem;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
 `;
 
 export const FlagImg1 = styled.img`

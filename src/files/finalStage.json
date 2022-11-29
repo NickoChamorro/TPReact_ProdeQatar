@@ -1,13 +1,13 @@
 [
     {
-        "name":"Octavos",
+        "name":"OCTAVOS",
         "withFlag": false,
         "data": [
             {
                 "date": "Sab 03/12",
                 "hour": "12:00", 
                 "stadium": "Doha", 
-                "player1": "", 
+                "player1": "P.BAJOS", 
                 "player2": "", 
                 "score1": "",
                 "score2": "",
@@ -41,7 +41,7 @@
                 "hour": "16:00", 
                 "stadium": "Jor", 
                 "player1": "", 
-                "player2": "",
+                "player2": "SENEGAL",
                 "score1": "",
                 "score2": "", 
                 "position1": "4- 1B", 
@@ -94,7 +94,7 @@
         ]
     },
     {
-        "name":"Cuartos",
+        "name":"CUARTOS",
         "withFlag": false,
         "data": [
             {
@@ -144,7 +144,7 @@
         ]
     },
     {
-        "name":"Semis",
+        "name":"SEMIS",
         "withFlag": false,
         "data": [
             {
@@ -189,7 +189,7 @@
         ]
     },
     {
-        "name":"Final",
+        "name":"FINAL",
         "withFlag": false,
         "data": [
             {
