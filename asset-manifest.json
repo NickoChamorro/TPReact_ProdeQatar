@@ -1,15 +1,32 @@
 {
   "files": {
-    "main.js": "/TPReact_ProdeQatar/static/js/main.94851286.js",
+    "main.js": "/TPReact_ProdeQatar/static/js/main.0fbeee81.js",
     "static/media/Qatar2022Arabic-Heavy.ttf": "/TPReact_ProdeQatar/static/media/Qatar2022Arabic-Heavy.92e6394809e6024e9ddc.ttf",
     "static/media/Qatar2022Arabic-Bold.ttf": "/TPReact_ProdeQatar/static/media/Qatar2022Arabic-Bold.6822079ad6ad4f0dbab2.ttf",
     "static/media/LogoCatarSinFondo.png": "/TPReact_ProdeQatar/static/media/LogoCatarSinFondo.014a527fdc5c55db62d6.png",
     "static/media/Background1.jpg": "/TPReact_ProdeQatar/static/media/Background1.0db0b5b1230804e03be1.jpg",
     "static/media/TituloQatar2.png": "/TPReact_ProdeQatar/static/media/TituloQatar2.eb47e7ca31229ba94161.png",
+    "static/media/gales.png": "/TPReact_ProdeQatar/static/media/gales.fc4e12232cc30ce7a3c3.png",
+    "static/media/arabia-saudita.png": "/TPReact_ProdeQatar/static/media/arabia-saudita.d2f9a327dbe85a9c1ab5.png",
+    "static/media/reino-unido.png": "/TPReact_ProdeQatar/static/media/reino-unido.789ff1da7dc0b7ff0220.png",
+    "static/media/mexico.png": "/TPReact_ProdeQatar/static/media/mexico.5c8fa02912e3c9c5d12c.png",
+    "static/media/australia.png": "/TPReact_ProdeQatar/static/media/australia.46269c1105253dfb9d25.png",
+    "static/media/iran.png": "/TPReact_ProdeQatar/static/media/iran.3fceefdfb6a2975d01c7.png",
+    "static/media/corea-del-sur.png": "/TPReact_ProdeQatar/static/media/corea-del-sur.ee550ee3db22c52e24df.png",
+    "static/media/estados-unidos.png": "/TPReact_ProdeQatar/static/media/estados-unidos.a1fc118ed9c993844853.png",
+    "static/media/ecuador.png": "/TPReact_ProdeQatar/static/media/ecuador.8b30146182fd242ede99.png",
+    "static/media/brasil.png": "/TPReact_ProdeQatar/static/media/brasil.4daec62870c4385b8871.png",
+    "static/media/portugal.png": "/TPReact_ProdeQatar/static/media/portugal.1a9ca59ce2d7243277ff.png",
+    "static/media/serbia.png": "/TPReact_ProdeQatar/static/media/serbia.dad2d031bea39ad0ec3a.png",
+    "static/media/uruguay.png": "/TPReact_ProdeQatar/static/media/uruguay.3d2d929a3c5ae64d1f13.png",
+    "static/media/tunez.png": "/TPReact_ProdeQatar/static/media/tunez.e18b78a4f0400633a497.png",
+    "static/media/croacia.png": "/TPReact_ProdeQatar/static/media/croacia.8d30d75a7af52fb73568.png",
+    "static/media/espana.png": "/TPReact_ProdeQatar/static/media/espana.09945efd998584311bf1.png",
+    "static/media/marruecos.png": "/TPReact_ProdeQatar/static/media/marruecos.6d1b36ede20b7c7d7c29.png",
     "index.html": "/TPReact_ProdeQatar/index.html",
-    "main.94851286.js.map": "/TPReact_ProdeQatar/static/js/main.94851286.js.map"
+    "main.0fbeee81.js.map": "/TPReact_ProdeQatar/static/js/main.0fbeee81.js.map"
   },
   "entrypoints": [
-    "static/js/main.94851286.js"
+    "static/js/main.0fbeee81.js"
   ]
 }
