@@ -1,0 +1,211 @@
+[
+    {
+        "name":"Octavos",
+        "withFlag": false,
+        "data": [
+            {
+                "date": "Sab 03/12",
+                "hour": "12:00", 
+                "stadium": "Doha", 
+                "player1": "", 
+                "player2": "", 
+                "score1": "",
+                "score2": "",
+                "position1": "1- 1A", 
+                "position2": "2B"  
+            },
+            {
+                "date": "Sab 03/12", 
+                "hour": "16:00", 
+                "stadium": "Al Rayyan", 
+                "player1": "", 
+                "player2": "",
+                "score1": "",
+                "score2": "", 
+                "position1": "2- 1C", 
+                "position2": "2D"
+            },
+            {
+                "date": "Dom 04/12", 
+                "hour": "12:00", 
+                "stadium": "Doha", 
+                "player1": "", 
+                "player2": "",
+                "score1": "",
+                "score2": "", 
+                "position1": "3- 1D", 
+                "position2": "2C"
+            },
+            {
+                "date": "Dom 04/12",
+                "hour": "16:00", 
+                "stadium": "Jor", 
+                "player1": "", 
+                "player2": "",
+                "score1": "",
+                "score2": "", 
+                "position1": "4- 1B", 
+                "position2": "2A"
+            },
+            {
+                "date": "Lun 05/12",
+                "hour": "12:00", 
+                "stadium": "Al Wakrah", 
+                "player1": "", 
+                "player2": "",
+                "score1": "",
+                "score2": "", 
+                "position1": "5- 1E", 
+                "position2": "2F"
+            },
+            {
+                "date": "Lun 05/12",
+                "hour": "16:00", 
+                "stadium": "Doha", 
+                "player1": "", 
+                "player2": "",
+                "score1": "",
+                "score2": "", 
+                "position1": "6- 1G", 
+                "position2": "2H"
+            },
+            {
+                "date": "Mar 06/12",
+                "hour": "12:00", 
+                "stadium": "Doha", 
+                "player1": "", 
+                "player2": "",
+                "score1": "",
+                "score2": "", 
+                "position1": "7- 1F", 
+                "position2": "2E"
+            },
+            {
+                "date": "Mar 06/12", 
+                "hour": "16:00", 
+                "stadium": "Lusail", 
+                "player1": "", 
+                "player2": "",
+                "score1": "",
+                "score2": "", 
+                "position1": "8- 1H", 
+                "position2": "2G"
+            }
+        ]
+    },
+    {
+        "name":"Cuartos",
+        "withFlag": false,
+        "data": [
+            {
+                "date": "Vie 09/12", 
+                "hour": "12:00", 
+                "stadium": "Doha", 
+                "player1": "", 
+                "player2": "", 
+                "score1": "",
+                "score2": "",
+                "position1": "2- G5", 
+                "position2": "G6"
+            },
+            {
+                "date": "Vie 09/12", 
+                "hour": "16:00", 
+                "stadium": "Lusail", 
+                "player1": "", 
+                "player2": "",
+                "score1": "",
+                "score2": "", 
+                "position1": "1- G1", 
+                "position2": "G2"
+            },
+            {
+                "date": "Sab 10/12",  
+                "hour": "12:00", 
+                "stadium": "Doha", 
+                "player1": "", 
+                "player2": "",
+                "score1": "",
+                "score2": "", 
+                "position1": "4- G7", 
+                "position2": "G8"
+            },
+            {
+                "date": "Sab 10/12",
+                "hour": "16:00", 
+                "stadium": "Jor", 
+                "player1": "", 
+                "player2": "",
+                "score1": "",
+                "score2": "", 
+                "position1": "3- G3", 
+                "position2": "G4"
+            }
+        ]
+    },
+    {
+        "name":"Semis",
+        "withFlag": false,
+        "data": [
+            {
+                "date": "Mar 13/12",
+                "hour": "16:00", 
+                "stadium": "Lusail", 
+                "player1": "", 
+                "player2": "", 
+                "score1": "",
+                "score2": "",
+                "position1": "1- G1", 
+                "position2": "G2"
+            },
+            {
+                "date": "Mie 14/12",
+                "hour": "16:00", 
+                "stadium": "Jor", 
+                "player1": "", 
+                "player2": "",
+                "score1": "",
+                "score2": "", 
+                "position1": "2- G3", 
+                "position2": "G4"
+            }
+        ]
+    },
+    {
+        "name":"3er y 4to puesto",
+        "whitFlag": false,
+        "data": [
+            {
+                "date": "Sab 17/12", 
+                "hour": "12:00", 
+                "stadium": "Doha", 
+                "player1": "", 
+                "player2": "", 
+                "score1": "",
+                "score2": "",
+                "position1": "   P1", 
+                "position2": "P2"
+            }
+        ]
+    },
+    {
+        "name":"Final",
+        "withFlag": false,
+        "data": [
+            {
+                "date": "Dom 18/12",
+                "hour": "12:00", 
+                "stadium": "Lusail", 
+                "player1": "", 
+                "player2": "", 
+                "score1": "",
+                "score2": "",
+                "position1": "   G1", 
+                "position2": "G2"
+            }   
+        ],
+        "winner": "" 
+    }      
+
+]
+  

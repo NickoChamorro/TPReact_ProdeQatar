@@ -8,7 +8,7 @@ export const HeaderBar = styled.div`
     width: 100%; 
     margin: 0;
     padding: 0;
-    background: white;
+    background: ${(props)=>props.theme.colors.whiteBg};
     z-index: 1;
     @media (min-width: 1000px){
         justify-content: space-around;
@@ -25,9 +25,9 @@ export const TitleContainer = styled.div`
 `;
 
 export const Logo = styled.div`
-    width: 5rem;
+    width: 4rem;
     @media (max-width: 900px){
-        width: 4rem;
+        width: 3.8rem;
     }
 `;
 

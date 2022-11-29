@@ -1,0 +1,582 @@
+[
+    {
+        "name":"Grupo A",
+        "withFlag": true,
+        "data": [
+            {
+                "date": "Lun 21/11", 
+                "hour": "7:00", 
+                "stadium": "Doha", 
+                "player1": "SENEGAL", 
+                "player2": "P.BAJOS", 
+                "score1": "0",
+                "score2": "2",
+                "position1": "", 
+                "position2": ""  
+            },
+            {
+                "date": "Dom 20/11",
+                "hour": "13:00", 
+                "stadium": "Jor", 
+                "player1": "QATAR", 
+                "player2": "ECUADOR",
+                "score1": "0",
+                "score2": "2", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Vie 25/11", 
+                "hour": "10:00", 
+                "stadium": "Doha", 
+                "player1": "QATAR", 
+                "player2": "SENEGAL",
+                "score1": "1",
+                "score2": "3", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Vie 25/11", 
+                "hour": "13:00", 
+                "stadium": "Al Rayyan", 
+                "player1": "P.BAJOS", 
+                "player2": "ECUADOR",
+                "score1": "1",
+                "score2": "1", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Mar 29/11",
+                "hour": "12:00", 
+                "stadium": "Jor", 
+                "player1": "P.BAJOS", 
+                "player2": "QATAR",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Mar 29/11",
+                "hour": "12:00", 
+                "stadium": "Doha", 
+                "player1": "ECUADOR", 
+                "player2": "SENEGAL",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            }
+        ]
+    },
+    {
+        "name":"Grupo B",
+        "withFlag": true,
+        "data": [
+            {
+                "date": "Lun 21/11", 
+                "hour": "10:00", 
+                "stadium": "Doha", 
+                "player1": "INGLATERRA", 
+                "player2": "IRAN", 
+                "score1": "6",
+                "score2": "2",
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Lun 21/11", 
+                "hour": "16:00", 
+                "stadium": "Al Rayyan", 
+                "player1": "EE.UU.", 
+                "player2": "GALES",
+                "score1": "1",
+                "score2": "1", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Vie 25/11",  
+                "hour": "7:00", 
+                "stadium": "Doha", 
+                "player1": "GALES", 
+                "player2": "IRAN",
+                "score1": "0",
+                "score2": "2", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Vie 25/11",
+                "hour": "16:00", 
+                "stadium": "Jor", 
+                "player1": "INGLATERRA", 
+                "player2": "EE.UU.",
+                "score1": "0",
+                "score2": "0", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Mar 29/11", 
+                "hour": "16:00", 
+                "stadium": "Al Rayyan", 
+                "player1": "GALES", 
+                "player2": "INGLATERRA",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Mar 29/11",
+                "hour": "16:00", 
+                "stadium": "Doha", 
+                "player1": "IRAN", 
+                "player2": "EE.UU.",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            }
+        ]
+    },
+    {
+        "name":"Grupo C",
+        "withFlag": true,
+        "data": [
+            {
+                "date": "Mar 22/11",
+                "hour": "7:00", 
+                "stadium": "Lusail", 
+                "player1": "ARGENTINA", 
+                "player2": "ARABIA S.", 
+                "score1": "1",
+                "score2": "2",
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Mar 22/11",
+                "hour": "13:00", 
+                "stadium": "Doha", 
+                "player1": "MEXICO", 
+                "player2": "POLONIA",
+                "score1": "0",
+                "score2": "0", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Sab 26/11",  
+                "hour": "10:00", 
+                "stadium": "Doha", 
+                "player1": "POLONIA", 
+                "player2": "ARABIA S.",
+                "score1": "2",
+                "score2": "0", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Sab 26/11", 
+                "hour": "16:00", 
+                "stadium": "Lusail", 
+                "player1": "ARGENTINA", 
+                "player2": "MEXICO",
+                "score1": "2",
+                "score2": "0", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Mie 30/11", 
+                "hour": "16:00", 
+                "stadium": "Doha", 
+                "player1": "POLONIA", 
+                "player2": "ARGENTINA",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Mie 30/11",
+                "hour": "16:00", 
+                "stadium": "Lusail", 
+                "player1": "ARABIA S.", 
+                "player2": "MEXICO",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            }
+        ]
+
+    },
+    {
+        "name":"Grupo D",
+        "withFlag": true,
+        "data": [
+            {
+                "date": "Mar 22/11", 
+                "hour": "10:00", 
+                "stadium": "Doha", 
+                "player1": "DINAMARCA", 
+                "player2": "TUNEZ", 
+                "score1": "0",
+                "score2": "0",
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Mar 22/11", 
+                "hour": "16:00", 
+                "stadium": "Al Wakrah", 
+                "player1": "FRANCIA", 
+                "player2": "AUSTRALIA",
+                "score1": "4",
+                "score2": "1", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Sab 26/11",  
+                "hour": "7:00", 
+                "stadium": "Al Wakrah", 
+                "player1": "TUNEZ", 
+                "player2": "AUSTRALIA",
+                "score1": "0",
+                "score2": "1", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Sab 26/11",
+                "hour": "13:00", 
+                "stadium": "Doha", 
+                "player1": "FRANCIA", 
+                "player2": "DINAMARCA",
+                "score1": "2",
+                "score2": "1", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Mie 30/11",  
+                "hour": "12:00", 
+                "stadium": "Doha", 
+                "player1": "TUNEZ", 
+                "player2": "FRANCIA",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Mie 30/11",
+                "hour": "12:00", 
+                "stadium": "Lusail", 
+                "player1": "AUSTRALIA", 
+                "player2": "DINAMARCA",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            }
+        ]
+    },
+    {
+        "name":"Grupo E",
+        "withFlag": true,
+        "data": [
+            {
+                "date": "Mie 23/11",
+                "hour": "10:00", 
+                "stadium": "Doha", 
+                "player1": "ALEMANIA", 
+                "player2": "JAPON", 
+                "score1": "1",
+                "score2": "2",
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Mie 23/11",  
+                "hour": "13:00", 
+                "stadium": "Doha", 
+                "player1": "ESPAÑA", 
+                "player2": "COSTA RICA",
+                "score1": "7",
+                "score2": "0", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Dom 27/11",   
+                "hour": "7:00", 
+                "stadium": "Al Rayyan", 
+                "player1": "JAPON", 
+                "player2": "COSTA RICA",
+                "score1": "0",
+                "score2": "1", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Dom 27/11", 
+                "hour": "16:00", 
+                "stadium": "Jor", 
+                "player1": "ESPAÑA", 
+                "player2": "ALEMANIA",
+                "score1": "1",
+                "score2": "1", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Jue 01/12",  
+                "hour": "16:00", 
+                "stadium": "Doha", 
+                "player1": "JAPON", 
+                "player2": "ESPAÑA",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Jue 01/12", 
+                "hour": "16:00", 
+                "stadium": "Jor", 
+                "player1": "COSTA RICA", 
+                "player2": "ALEMANIA",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            }
+        ]
+    },
+    {
+        "name":"Grupo F",
+        "withFlag": true,
+        "data": [
+            {
+                "date": "Mie 23/11", 
+                "hour": "7:00", 
+                "stadium": "Jor", 
+                "player1": "MARRUECOS", 
+                "player2": "CROACIA", 
+                "score1": "0",
+                "score2": "0",
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Mie 23/11",  
+                "hour": "16:00", 
+                "stadium": "Al Rayyan", 
+                "player1": "BELGICA", 
+                "player2": "CANADA",
+                "score1": "1",
+                "score2": "0", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Dom 27/11", 
+                "hour": "10:00", 
+                "stadium": "Doha", 
+                "player1": "BELGICA", 
+                "player2": "MARRUECOS",
+                "score1": "0",
+                "score2": "2", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Dom 27/11", 
+                "hour": "13:00", 
+                "stadium": "Doha", 
+                "player1": "CROACIA", 
+                "player2": "CANADA",
+                "score1": "4",
+                "score2": "1", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Jue 01/12",  
+                "hour": "12:00", 
+                "stadium": "Al Rayyan", 
+                "player1": "CROACIA", 
+                "player2": "BELGICA",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Jue 01/12", 
+                "hour": "12:00", 
+                "stadium": "Doha", 
+                "player1": "CANADA", 
+                "player2": "MARRUECOS",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            }
+        ]
+    },
+    {
+        "name":"Grupo G",
+        "withFlag": true,
+        "data": [
+            {
+                "date": "Jue 24/11", 
+                "hour": "7:00", 
+                "stadium": "Al Wakrah", 
+                "player1": "SUIZA", 
+                "player2": "CAMERUN", 
+                "score1": "1",
+                "score2": "0",
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Jue 24/11", 
+                "hour": "16:00", 
+                "stadium": "Lusail", 
+                "player1": "BRASIL", 
+                "player2": "SERBIA",
+                "score1": "2",
+                "score2": "0", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Lun 28/11", 
+                "hour": "7:00", 
+                "stadium": "Al Wakrah", 
+                "player1": "CAMERUN", 
+                "player2": "SERBIA",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Lun 28/11", 
+                "hour": "13:00", 
+                "stadium": "Doha", 
+                "player1": "BRASIL", 
+                "player2": "SUIZA",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Vie 02/12",  
+                "hour": "16:00", 
+                "stadium": "Lusail", 
+                "player1": "CAMERUN", 
+                "player2": "BRASIL",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Vie 02/12",
+                "hour": "16:00", 
+                "stadium": "Doha", 
+                "player1": "SERBIA", 
+                "player2": "SUIZA",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            }
+        ]
+
+    },
+    {
+        "name":"Grupo H",
+        "withFlag": true,
+        "data": [
+            {
+                "date": "Jue 24/11", 
+                "hour": "10:00", 
+                "stadium": "Doha", 
+                "player1": "URUGUAY", 
+                "player2": "COREA S.", 
+                "score1": "0",
+                "score2": "0",
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Jue 24/11",
+                "hour": "13:00", 
+                "stadium": "Doha", 
+                "player1": "PORTUGAL", 
+                "player2": "GHANA",
+                "score1": "3",
+                "score2": "2", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Lun 28/11",  
+                "hour": "10:00", 
+                "stadium": "Doha", 
+                "player1": "COREA S.", 
+                "player2": "GHANA",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Lun 28/11", 
+                "hour": "16:00", 
+                "stadium": "Lusail", 
+                "player1": "PORTUGAL", 
+                "player2": "URUGUAY",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Vie 02/12", 
+                "hour": "12:00", 
+                "stadium": "Doha", 
+                "player1": "COREA S.", 
+                "player2": "PORTUGAL",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            },
+            {
+                "date": "Vie 02/12", 
+                "hour": "12:00", 
+                "stadium": "Al Wakrah", 
+                "player1": "GHANA", 
+                "player2": "URUGUAY",
+                "score1": "",
+                "score2": "", 
+                "position1": "", 
+                "position2": ""
+            }
+        ]
+    }
+
+]                                                                    
+                            
