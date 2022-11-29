@@ -150,7 +150,7 @@ export const BoxButton = styled.div`
         }
     }
 `
-export const ContainerButton = styled.div`
+export const ContainerButtonNav = styled.div`
     position: relative;
     display: flex;
     margin-left: 2.5em;

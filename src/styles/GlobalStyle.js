@@ -44,7 +44,7 @@ const GlobalStyle = createGlobalStyle`
         color: ${(props)=>props.theme.colors.primary};
     }
 
-    h1,h2,a{
+    h1,h2,a,form{
         font-family: 'Qatar Bold', sans-serif ;
     }
 

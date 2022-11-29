@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ButtonStandard = styled.button`
     position: relative; 
-    min-width: 6rem;
+    min-width: 7.7rem;
     min-height: 1.8rem;
     line-height: 1.8rem;
     margin: 0;
@@ -14,6 +14,7 @@ export const ButtonStandard = styled.button`
     cursor: pointer;
     z-index: 1; 
     overflow: hidden; 
+    transition: all .6s ease;
     &:before{
         content: '';
         position: absolute;
@@ -29,6 +30,7 @@ export const ButtonStandard = styled.button`
     }
 
     &:hover{
+        letter-spacing: 1px;
         &:before{
             width: 100%;
         }
@@ -40,3 +42,15 @@ export const ButtonStandard = styled.button`
         line-height: 2.5rem; 
     }   
 `;
+
+export const ContainerButton = styled.div`
+    position: relative;
+    display: flex;
+    transition: all .6s ease;
+    a:hover{
+        color: ${(props)=>props.theme.colors.whiteBg};
+    }
+    @media (max-width: 900px) {
+        margin-left: 0; 
+    }    
+`

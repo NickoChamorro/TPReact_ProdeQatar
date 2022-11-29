@@ -1,5 +1,12 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { useContextProvider } from "../../contexts/authContext";
+import imgFootball from '../../img/PelotaQatarSinFondo.png';
+import Button from "../commons/button/Button.jsx";
+import { FormInput, FormLabel, FormLogin, ImgForm, Links, LinksForm, SectionLogin, TitleForm } from "./LoginStyle.js";
+import { ContainerButton } from "../commons/button/ButtonStyle.js";
+import { REGISTER } from '../../config/routes/paths.js'
+
 
 function Login(){
     const {login} = useContextProvider();
@@ -18,14 +25,29 @@ function Login(){
     }
     
     return(
-    <>
-        <h1>Login</h1>
-        <form onSubmit={handleSubmit}>
-            <input type="text" name="Usuario" placeholder="Usuario" value={magicWord} onChange={handleInputChange}/>
-            <input type="password" name="Contraseña" placeholder="Contraseña" value={magicWord} onChange={handleInputChange}/>
-            <button type="submit">Iniciar Sesión</button>
-        </form>
-    </>
+        <SectionLogin>
+
+            <FormLogin name="formulario" onSubmit={handleSubmit}>
+                <TitleForm>
+                    <ImgForm src={imgFootball} alt="Football"/>
+                </TitleForm>
+
+                <FormLabel>Usuario:</FormLabel> 
+                <FormInput type="text" name="Usuario" placeholder="Ingrese su usuario..." value={magicWord} onChange={handleInputChange} required/>
+                
+                <FormLabel>Contraseña:</FormLabel>    
+                <FormInput type="password" name="Contraseña" placeholder="Ingrese su contraseña..." value={magicWord} onChange={handleInputChange} required/>
+
+                <br />
+                <ContainerButton>
+                    <Button type="submit" action={handleSubmit} string='Iniciar Sesión' />
+                </ContainerButton>
+
+                <LinksForm>
+                    <Links as={Link} to={REGISTER}>Registrarse</Links>
+                </LinksForm>
+            </FormLogin>
+        </SectionLogin>    
     ) 
 }
 

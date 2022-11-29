@@ -4,7 +4,7 @@ import { IconContext } from 'react-icons';
 import { FaBars } from 'react-icons/fa'
 import imgLogo from '../../img/LogoCatarSinFondo.png';
 import imgTitle from '../../img/TituloQatar2.png';
-import { BoxButton, HeaderBar, ItemList, List, Logo, LogoImg, Title, TitleContainer, TitleImg, ContainerButton } from "./NavStyle";
+import { BoxButton, HeaderBar, ItemList, List, Logo, LogoImg, Title, TitleContainer, TitleImg, ContainerButtonNav } from "./NavStyle";
 import { useState } from "react";
 import { useContextProvider } from "../../contexts/authContext";
 import Button from "../commons/button/Button.jsx";
@@ -50,9 +50,9 @@ function Navigation(){
                         <ItemList onClick={() => setShowMobileMenu(!showMobileMenu)}>
                             <Link to="/private/predicciones">Predicciones</Link>
                         </ItemList>
-                        <ContainerButton>
+                        <ContainerButtonNav>
                             <Button action={botonShowMobileMenu} string={isAuthenticated?'Mi Perfil':'Login'} route='/public/iniciosesion'/>
-                        </ContainerButton>      
+                        </ContainerButtonNav>      
                     </List>
 
                     
