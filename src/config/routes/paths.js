@@ -7,4 +7,5 @@ export const RANKING = '/ranking';
 export const PRIVATE = '/private';
 export const PREDICTIONS = '/private/predicciones';
 export const PROFILE = '/private/perfil';
+export const PROFILEUPD = '/private/perfil/:id';
 export const LOGOUT = '/private/cerrarsesion';

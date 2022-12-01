@@ -49,8 +49,8 @@ export const FormLabel = styled.label`
 `;
 
 export const FormInput = styled.input`
-    display: block;
     margin: 0.5rem;
+    min-width: 13rem;
 `;
 
 

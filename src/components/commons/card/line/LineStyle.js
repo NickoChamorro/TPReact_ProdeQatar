@@ -67,6 +67,13 @@ export const CardPlayer2 = styled.div`
     font-weight: bold;
 `;
 
+export const CardInput = styled.input`
+    transform: scale(1.5);
+    @media (max-width: 450px) {
+        transform: scale(1.2);
+    }
+`;
+
 export const CardResult1 = styled.div`
     grid-area: res1;
     min-width: 1.1rem;

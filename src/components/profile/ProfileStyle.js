@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
-export const SectionRegister = styled.div`
+export const SectionProfile = styled.div`
     display: flex;
     justify-content: center;
     width: 100%;
 `
-export const FormRegister = styled.form`
+
+export const FormProfile = styled.form`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,26 +30,37 @@ export const FormRegister = styled.form`
     }
 `;
 
-export const TitleRegister = styled.div`
-    width: 8rem;
-    @media (max-width: 900px) {
-        width: 7rem;
-    }
-    @media (max-width: 400px) {
-        width: 6rem;
-    }
-`
 
-export const ImgRegister = styled.img`
-    max-width: 100%;
-    height: auto;
+export const ProfileLabel = styled.label`
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+    flex-direction: row;
+    min-width: 27.1rem;
+    margin-bottom: 1rem;
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+    }
 `;
 
-export const RegisterLabel = styled.label`
-    display: block; 
-`;
-
-export const RegisterInput = styled.input`
+export const ProfileInput = styled.input`
     min-width: 16rem;
-    margin-bottom: 0.6rem;
+    margin-left: 1rem;
+    
+    @media (max-width: 500px) {
+        margin-left: 0;
+    }
 `;
+
+export const ProfilePuntos = styled.span`
+    min-width: 16rem;
+    margin-left: 1.5rem;
+    
+    @media (max-width: 500px) {
+        margin-left: 0;
+        text-align: center;
+    }
+`;
+
+
