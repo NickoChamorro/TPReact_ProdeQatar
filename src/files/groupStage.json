@@ -342,8 +342,8 @@
                 "stadium": "Doha", 
                 "player1": "JAPON", 
                 "player2": "ESPAÑA",
-                "score1": "",
-                "score2": "", 
+                "score1": "2",
+                "score2": "1", 
                 "position1": "", 
                 "position2": ""
             },
@@ -353,8 +353,8 @@
                 "stadium": "Jor", 
                 "player1": "COSTA RICA", 
                 "player2": "ALEMANIA",
-                "score1": "",
-                "score2": "", 
+                "score1": "2",
+                "score2": "4", 
                 "position1": "", 
                 "position2": ""
             }
@@ -414,8 +414,8 @@
                 "stadium": "Al Rayyan", 
                 "player1": "CROACIA", 
                 "player2": "BELGICA",
-                "score1": "",
-                "score2": "", 
+                "score1": "0",
+                "score2": "0", 
                 "position1": "", 
                 "position2": ""
             },
@@ -425,8 +425,8 @@
                 "stadium": "Doha", 
                 "player1": "CANADA", 
                 "player2": "MARRUECOS",
-                "score1": "",
-                "score2": "", 
+                "score1": "1",
+                "score2": "2", 
                 "position1": "", 
                 "position2": ""
             }
@@ -486,8 +486,8 @@
                 "stadium": "Lusail", 
                 "player1": "CAMERUN", 
                 "player2": "BRASIL",
-                "score1": "",
-                "score2": "", 
+                "score1": "1",
+                "score2": "0", 
                 "position1": "", 
                 "position2": ""
             },
@@ -497,8 +497,8 @@
                 "stadium": "Doha", 
                 "player1": "SERBIA", 
                 "player2": "SUIZA",
-                "score1": "",
-                "score2": "", 
+                "score1": "2",
+                "score2": "3", 
                 "position1": "", 
                 "position2": ""
             }
@@ -559,8 +559,8 @@
                 "stadium": "Doha", 
                 "player1": "COREA S.", 
                 "player2": "PORTUGAL",
-                "score1": "",
-                "score2": "", 
+                "score1": "2",
+                "score2": "1", 
                 "position1": "", 
                 "position2": ""
             },
@@ -570,8 +570,8 @@
                 "stadium": "Al Wakrah", 
                 "player1": "GHANA", 
                 "player2": "URUGUAY",
-                "score1": "",
-                "score2": "", 
+                "score1": "0",
+                "score2": "2", 
                 "position1": "", 
                 "position2": ""
             }
