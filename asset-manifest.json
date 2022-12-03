@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/TPReact_ProdeQatar/static/js/main.a76373f9.js",
+    "main.js": "/TPReact_ProdeQatar/static/js/main.92fdb679.js",
     "static/media/PelotaQatarSinFondo.png": "/TPReact_ProdeQatar/static/media/PelotaQatarSinFondo.5fcaa544eadb84a9d59a.png",
     "static/media/Qatar2022Arabic-Heavy.ttf": "/TPReact_ProdeQatar/static/media/Qatar2022Arabic-Heavy.92e6394809e6024e9ddc.ttf",
     "static/media/Qatar2022Arabic-Bold.ttf": "/TPReact_ProdeQatar/static/media/Qatar2022Arabic-Bold.6822079ad6ad4f0dbab2.ttf",
@@ -25,9 +25,9 @@
     "static/media/espana.png": "/TPReact_ProdeQatar/static/media/espana.09945efd998584311bf1.png",
     "static/media/marruecos.png": "/TPReact_ProdeQatar/static/media/marruecos.6d1b36ede20b7c7d7c29.png",
     "index.html": "/TPReact_ProdeQatar/index.html",
-    "main.a76373f9.js.map": "/TPReact_ProdeQatar/static/js/main.a76373f9.js.map"
+    "main.92fdb679.js.map": "/TPReact_ProdeQatar/static/js/main.92fdb679.js.map"
   },
   "entrypoints": [
-    "static/js/main.a76373f9.js"
+    "static/js/main.92fdb679.js"
   ]
 }
