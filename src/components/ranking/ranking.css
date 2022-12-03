@@ -1,0 +1,63 @@
+*{box-sizing: border-box; font-family: 'Qatar Bold', sans-serif ;}
+
+header
+{
+  margin:0 0 2rem 0;
+}
+
+article img {position:absolute; top:0; left:0;width:15%;opacity: 0.6;}
+
+
+tr:nth-child(even){    background-color: rgba(255,255,255,0.2);}
+th{
+  border-bottom:3px solid white;
+  margin:0;
+  padding:0.35rem 1rem;
+  color:#951434;
+  background:white;
+}
+
+tr:hover td{
+ background-color:goldenrod;
+ color:#951434;
+}
+
+.marquee-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .marquee {
+    width: 700px;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    overflow: hidden;
+    margin:0;
+  }
+  
+  .marquee-content {
+    animation-duration: 6s;
+    animation-name: marquee;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @media (min-width:800px)
+  {.marquee-content {animation-duration: 16s;}}
+  
+  .marquee-content.inactive {
+    animation-play-state: paused;
+  }
+  
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(99%)
+    }
+  
+    to {
+      transform: translateX(-100%)
+    }
+  }
+  
