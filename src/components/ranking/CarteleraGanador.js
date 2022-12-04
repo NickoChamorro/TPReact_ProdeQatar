@@ -53,10 +53,9 @@ if (mundialFinalizado){
 // else estiloCartelera= {display:"none"};
     return(
       <article style={estiloCartelera}>
-            <a href="https://www.flaticon.com/free-icons/medal"> <img src="https://cdn-icons-png.flaticon.com/128/179/179250.png" title="Medal icons created by Pixel Buddha - Flaticon"/></a>
+            <a  style={{color:"#951434",textDecoration:"none"}}href="https://www.flaticon.com/free-icons/medal"> <img src="https://cdn-icons-png.flaticon.com/128/179/179250.png" alt="medal" title="Medal icons created by Pixel Buddha - Flaticon"/></a>
             <h3> {encabezadoTarjeta} </h3>
             <p>{textoTarjeta}</p>
-            <a href="https://www.flaticon.com/free-icons/medal" title="medal icons"></a>
       </article>
     )
   }
