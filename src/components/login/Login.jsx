@@ -10,18 +10,21 @@ import { REGISTER } from '../../config/routes/paths.js'
 
 function Login(){
     const {login} = useContextProvider();
-    const [magicWord, setMagicWord] = useState('');
-    const MAGIC_WORD = 'admin';
+    const [user, setUser] = useState('');
+    const [pass, setPass] = useState('');
 
-    function handleInputChange(event){
-        setMagicWord(event.target.value)
+    function handleInputChangeUser(event){
+        setUser(event.target.value) 
     }
+
+    function handleInputChangePass(event){
+        setPass(event.target.value)
+    }    
 
     function handleSubmit(event){
         event.preventDefault();
-        if (magicWord === MAGIC_WORD){
-            login();
-        }
+        console.log(`Login > user${user} pass ${pass}`);
+        login(user, pass)
     }
     
     return(
@@ -33,10 +36,10 @@ function Login(){
                 </TitleForm>
 
                 <FormLabel>Usuario:</FormLabel> 
-                <FormInput type="text" name="Usuario" placeholder="Ingrese su usuario..." value={magicWord} onChange={handleInputChange} required/>
+                <FormInput type="text" name="Usuario" placeholder="Ingrese su usuario..." value={user} onChange={handleInputChangeUser} required/>
                 
                 <FormLabel>Contraseña:</FormLabel>    
-                <FormInput type="password" name="Contraseña" placeholder="Ingrese su contraseña..." value={magicWord} onChange={handleInputChange} required/>
+                <FormInput type="password" name="Contraseña" placeholder="Ingrese su contraseña..." value={pass} onChange={handleInputChangePass} required/>
 
                 <br />
                 <ContainerButton>

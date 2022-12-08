@@ -1,24 +1,59 @@
-import { useState } from "react";
-import { LOGOUT } from "../../config/routes/paths"
+import { useEffect, useState } from "react";
+import { LOGOUT, URLBASEAPI, URLPATHUSER, AUTH_USER } from "../../config/routes/paths.js"
 import Button from "../commons/button/Button.jsx";
 import { ContainerButton } from "../commons/button/ButtonStyle.js";
 import { FormProfile, ProfileInput, ProfileLabel, ProfilePuntos, SectionProfile } from "./ProfileStyle.js";
+import axios from "axios";
 
 function Profile(){
+    const url = `${URLBASEAPI}${URLPATHUSER}`;
+    const id = window.localStorage.getItem(AUTH_USER) ?? 0;
 
-    // Traer los valores del back con un GET a usuario
-    //const [id, setId] = useState('');
     const [name, setName] = useState('');
     const [surname, setSurname] = useState('');
     const [email, setEmail] = useState('');
     const [user, setUser] = useState('');
     const [pass, setPass] = useState('');
     const [repeatPass, setRepeatPass] = useState('');
-    const points = 0;
+    const [points, setPoints] = useState('');
 
-    function handleSubmit(event){
-        event.preventDefault();
-        console.log(`Update`)
+    useEffect(()=>{
+        //procedimiento para traer un usuario
+        try {
+            const getUser = async () => {
+                const res = await axios.get(url+id)
+                setName(res.data.nombre)
+                setSurname(res.data.apellido)
+                setEmail(res.data.email)
+                setUser(res.data.usuario)
+                setPass(res.data.pass)
+                setPoints(res.data.puntos)
+            }
+            getUser()
+        } catch (error) {
+            alert(error)
+        }    
+    },[url,id])
+
+    const handleSubmit = async (event) =>{
+        event.preventDefault();  
+        //procedimiento para actualizar un usuario
+        if (repeatPass!==null && repeatPass!=='' && repeatPass!==pass){
+            alert('Contraseña no coincide con Repetir contraseña');
+            return
+        }
+        try {  
+            await axios.put (url+id,{
+                nombre: name,
+                apellido: surname,
+                email: email,
+                usuario: user,
+                pass:pass
+            });
+            alert('Modificación realizada')
+        } catch (error) {
+            alert(error)
+        }
     }
 
     return(
