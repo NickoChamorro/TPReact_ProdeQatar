@@ -1,14 +1,15 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useContextProvider } from "../../contexts/authContext";
 import imgFootball from '../../img/PelotaQatarSinFondo.png';
 import Button from "../commons/button/Button.jsx";
 import { FormInput, FormLabel, FormLogin, ImgForm, Links, LinksForm, SectionLogin, TitleForm } from "./LoginStyle.js";
 import { ContainerButton } from "../commons/button/ButtonStyle.js";
-import { REGISTER } from '../../config/routes/paths.js'
+import { PREDICTIONS, REGISTER } from '../../config/routes/paths.js'
 
 
 function Login(){
+    const navigate = useNavigate()
     const {login} = useContextProvider();
     const [user, setUser] = useState('');
     const [pass, setPass] = useState('');
@@ -24,7 +25,8 @@ function Login(){
     function handleSubmit(event){
         event.preventDefault();
         console.log(`Login > user${user} pass ${pass}`);
-        login(user, pass)
+        login(user, pass);
+        navigate(PREDICTIONS);
     }
     
     return(
