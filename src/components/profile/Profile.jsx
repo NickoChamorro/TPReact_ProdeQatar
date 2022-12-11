@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { LOGOUT, URLBASEAPI, URLPATHUSER, AUTH_USER } from "../../config/routes/paths.js"
+import { LOGOUT, URLBASEAPI, URLPATHUSER, AUTH_USER, CONFIGHEADER } from "../../config/routes/paths.js"
 import Button from "../commons/button/Button.jsx";
 import { ContainerButton } from "../commons/button/ButtonStyle.js";
 import { FormProfile, ProfileInput, ProfileLabel, ProfilePuntos, SectionProfile } from "./ProfileStyle.js";
@@ -14,14 +14,13 @@ function Profile(){
     const [email, setEmail] = useState('');
     const [user, setUser] = useState('');
     const [pass, setPass] = useState('');
-    const [repeatPass, setRepeatPass] = useState('');
     const [points, setPoints] = useState('');
 
     useEffect(()=>{
         //procedimiento para traer un usuario
         try {
             const getUser = async () => {
-                const res = await axios.get(url+id)
+                const res = await axios.get(url+id, CONFIGHEADER)
                 setName(res.data.nombre)
                 setSurname(res.data.apellido)
                 setEmail(res.data.email)
@@ -38,10 +37,6 @@ function Profile(){
     const handleSubmit = async (event) =>{
         event.preventDefault();  
         //procedimiento para actualizar un usuario
-        if (repeatPass!==null && repeatPass!=='' && repeatPass!==pass){
-            alert('Contraseña no coincide con Repetir contraseña');
-            return
-        }
         try {  
             await axios.put (url+id,{
                 nombre: name,
@@ -80,10 +75,6 @@ function Profile(){
                 
                 <ProfileLabel>Contraseña
                     <ProfileInput type="password" name="Contraseña"  value={pass} onChange={e => setPass(e.target.value)} required/>    
-                </ProfileLabel>    
-                
-                <ProfileLabel>Repetir contraseña
-                    <ProfileInput type="password" name="RepetirContraseña"  value={repeatPass} onChange={e => setRepeatPass(e.target.value)} required/>    
                 </ProfileLabel>    
 
                 <ProfileLabel>Puntos

@@ -11,7 +11,7 @@ function Stage ({section}){
         <Section id={section}>
             {   stage.map((item,index) =>{
                     if (item.name === "FINAL") winner = item.winner;    
-                    return <Card key={index+1} name={item.name} withFlag={item.withFlag} data={item.data}/> 
+                    return <Card key={index+1} name={item.name} withFlag={item.withFlag} user={null} data={item.data}/> 
                 })      
             }  
             {

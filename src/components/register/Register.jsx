@@ -1,10 +1,16 @@
+import axios from "axios";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { URLBASEAPI, URLPATHUSER, CONFIGHEADER, LOGIN } from "../../config/routes/paths.js"
 import Button from "../commons/button/Button.jsx"
 import { ContainerButton } from "../commons/button/ButtonStyle.js"
 import { FormRegister, RegisterInput, RegisterLabel, SectionRegister } from "./RegisterStyle.js"
 
 
 function Register(){
+
+    const url = `${URLBASEAPI}${URLPATHUSER}`;
+    const navigate = useNavigate()
 
     const [name, setName] = useState('');
     const [surname, setSurname] = useState('');
@@ -13,10 +19,45 @@ function Register(){
     const [pass, setPass] = useState('');
     const [repeatPass, setRepeatPass] = useState('');
 
-    function handleSubmit(event){
+    const handleSubmit = async (event) =>{
         event.preventDefault();
         //Validar datos antes de envíar
-        console.log(`Registración name:${name} surname:${surname} email:${email} user:${user} pass:${pass} repeatPass:${repeatPass}`)
+        if (name===null){
+            alert('Debe ingresar Nombre')
+            return
+        } else if (surname===null){
+            alert('Debe ingresar Apellido')
+            return
+        } else if (email===null){
+            alert('Debe ingresar Email')
+            return
+        } else if (user===null){
+            alert('Debe ingresar Usuario')
+            return
+        } else if (pass===null){
+            alert('Debe ingresar Contraseña')
+            return
+        } else if (repeatPass===null){
+            alert('Debe repetir la contraseña')
+            return
+        } else if (pass!==repeatPass){
+            alert('Contraseña no coincide con repetición')
+            return
+        }
+        try {  
+            await axios.post (url,{
+                nombre: name,
+                apellido: surname,
+                email: email,
+                usuario: user,
+                pass:pass
+            }, CONFIGHEADER);
+            alert('Generación de usuario realizada');
+            navigate(LOGIN)
+        } catch (error) {
+            alert(error)
+        }
+
     }
 
     return(
