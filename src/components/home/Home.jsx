@@ -15,27 +15,21 @@ function Home(){
         <>
             <Myh1>Prode-Qatar 2022</Myh1>
             <Info>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod dolorem nihil doloremque saepe molestiae exercitationem harum. Repellendus quisquam adipisci unde non. Ullam, nulla necessitatibus consequatur sequi similique iusto nostrum? Unde?
-                Hic odit sit accusantium, quaerat minus officiis vero corrupti, nam quos, reprehenderit quisquam ducimus. Praesentium esse quia corrupti neque debitis quis repellendus, in aspernatur consequuntur explicabo alias, totam dolores velit.
-                Quam nisi commodi ipsa! Reiciendis facilis, odio possimus laudantium numquam, accusantium corrupti, sint molestiae vel cumque esse inventore! Praesentium ducimus iure corporis deserunt debitis nulla adipisci sint laudantium odio doloribus.
+                Prode Qatar 2022 es un juego online de pronóstico deportivo que incentiva la competencia sana. Diviértete con tus amigos, compañeros de trabajo o estudio, a través de la predicción de los resultados de los partidos del mundial de manera totalmente gratuita.
             </Info>
-            <Myh1>Reglas</Myh1>
+            <Myh1>¿Cómo empezar a jugar?</Myh1>
             <Info>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod dolorem nihil doloremque saepe molestiae exercitationem harum. Repellendus quisquam adipisci unde non. Ullam, nulla necessitatibus consequatur sequi similique iusto nostrum? Unde?
-                Hic odit sit accusantium, quaerat minus officiis vero corrupti, nam quos, reprehenderit quisquam ducimus. Praesentium esse quia corrupti neque debitis quis repellendus, in aspernatur consequuntur explicabo alias, totam dolores velit.
-                Quam nisi commodi ipsa! Reiciendis facilis, odio possimus laudantium numquam, accusantium corrupti, sint molestiae vel cumque esse inventore! Praesentium ducimus iure corporis deserunt debitis nulla adipisci sint laudantium odio doloribus.
+                Empezar a jugar requiere de sólo 2 pasos: registrarse al sitio (si aún no tenés una cuenta creada) y luego, cargar tus pronósticos. Así de fácil. Así de sencillo. Así de rápido.
             </Info>
-            <Myh1>Puntuaciones</Myh1>
+            <Myh1>¿Cómo realizar mis predicciones?</Myh1>
             <Info>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod dolorem nihil doloremque saepe molestiae exercitationem harum. Repellendus quisquam adipisci unde non. Ullam, nulla necessitatibus consequatur sequi similique iusto nostrum? Unde?
-                Hic odit sit accusantium, quaerat minus officiis vero corrupti, nam quos, reprehenderit quisquam ducimus. Praesentium esse quia corrupti neque debitis quis repellendus, in aspernatur consequuntur explicabo alias, totam dolores velit.
-                Quam nisi commodi ipsa! Reiciendis facilis, odio possimus laudantium numquam, accusantium corrupti, sint molestiae vel cumque esse inventore! Praesentium ducimus iure corporis deserunt debitis nulla adipisci sint laudantium odio doloribus.
+                Los partidos van a estar disponibles por etapas: fase de grupos, luego octavos, cuartos, semifinales y, por último, tercer y cuarto puesto y final. Las predicciones deben realizarse antes de comenzar los partidos, ese es el tiempo límite para realizar el pronóstico.
+                Por cada partido hay 2 botones de check, 1 por cada equipo. Si nuestro pronóstico es que va a ganar un equipo en particular seleccionamos el check de ese equipo, y si creemos que va a ser un empate, seleccionamos los 2. 
+                De octavos en adelante no hay empates, se toma en cuenta el resultado final por más que haya empate en el tiempo reglamentario y vayan a alargue o penales.
             </Info>
-            <Myh1>Jugar ahora</Myh1>
+            <Myh1>Puntuación</Myh1>
             <Info>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod dolorem nihil doloremque saepe molestiae exercitationem harum. Repellendus quisquam adipisci unde non. Ullam, nulla necessitatibus consequatur sequi similique iusto nostrum? Unde?
-                Hic odit sit accusantium, quaerat minus officiis vero corrupti, nam quos, reprehenderit quisquam ducimus. Praesentium esse quia corrupti neque debitis quis repellendus, in aspernatur consequuntur explicabo alias, totam dolores velit.
-                Quam nisi commodi ipsa! Reiciendis facilis, odio possimus laudantium numquam, accusantium corrupti, sint molestiae vel cumque esse inventore! Praesentium ducimus iure corporis deserunt debitis nulla adipisci sint laudantium odio doloribus.
+            Cada partido acertado suma 1 punto. El puntaje se puede observar en el perfil del usuario o en el menú ranking con el podio de usuarios y los puntos acumulados.
 
             </Info>
             
