@@ -1,7 +1,9 @@
-import { Myh1, Info, ContainerButton} from "./HomeStyle";
+import { Myh1, Info, ContainerButton, ImInicio, DivImg} from "./HomeStyle";
 import { useContextProvider } from "../../contexts/authContext";
 import { useState } from "react";
 import Button from "../commons/button/Button.jsx";
+import imgInicio from '../../img/qatar.jpeg';
+
 
 
 function Home(){
@@ -12,15 +14,16 @@ function Home(){
         setShowMobileMenu(!showMobileMenu)
     }
     return (
-        <>
+        <>  
+            <DivImg>
+                <ImInicio src= {imgInicio} alt="img_inicio"/>
+            </DivImg>
+            <br />
             <Myh1>Prode-Qatar 2022</Myh1>
             <Info>
                 Prode Qatar 2022 es un juego online de pronóstico deportivo que incentiva la competencia sana. Diviértete con tus amigos, compañeros de trabajo o estudio, a través de la predicción de los resultados de los partidos del mundial de manera totalmente gratuita.
             </Info>
-            <Myh1>¿Cómo empezar a jugar?</Myh1>
-            <Info>
-                Empezar a jugar requiere de sólo 2 pasos: registrarse al sitio (si aún no tenés una cuenta creada) y luego, cargar tus pronósticos. Así de fácil. Así de sencillo. Así de rápido.
-            </Info>
+            
             <Myh1>¿Cómo realizar mis predicciones?</Myh1>
             <Info>
                 Los partidos van a estar disponibles por etapas: fase de grupos, luego octavos, cuartos, semifinales y, por último, tercer y cuarto puesto y final. Las predicciones deben realizarse antes de comenzar los partidos, ese es el tiempo límite para realizar el pronóstico.
@@ -29,12 +32,15 @@ function Home(){
             </Info>
             <Myh1>Puntuación</Myh1>
             <Info>
-            Cada partido acertado suma 1 punto. El puntaje se puede observar en el perfil del usuario o en el menú ranking con el podio de usuarios y los puntos acumulados.
-
+                Cada partido acertado suma 1 punto. El puntaje se puede observar en el perfil del usuario o en el menú ranking con el podio de usuarios y los puntos acumulados.
+            </Info>
+            <Myh1>¿Cómo empezar a jugar?</Myh1>
+            <Info>
+                Empezar a jugar requiere de sólo 2 pasos: registrarse al sitio (si aún no tenés una cuenta creada) y luego, cargar tus pronósticos. Así de fácil. Así de sencillo. Así de rápido.
             </Info>
             
             <ContainerButton>
-                <Button action={botonShowMobileMenu} string={isAuthenticated?'Mi Perfil':'Login'} route='/public/iniciosesion'/>
+                <Button action={botonShowMobileMenu} string={isAuthenticated?'Mi Perfil':'Jugar ahora'} route='/public/iniciosesion'/>
             </ContainerButton>  
              
         </>

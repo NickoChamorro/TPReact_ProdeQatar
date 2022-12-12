@@ -10,7 +10,7 @@ export const HeaderBar = styled.div`
     padding: 0;
     background: ${(props)=>props.theme.colors.whiteBg};
     z-index: 2;
-    @media (min-width: 1000px){
+    @media (min-width: 901px){
         justify-content: space-around;
     }  
 `;
