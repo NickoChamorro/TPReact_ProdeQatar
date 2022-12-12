@@ -24,10 +24,9 @@ export const ImInicio = styled.img`
     box-shadow: 0 0 50px ;
     @media (max-width: 1094px) {
         position: relative;
-        max-width: 30%;
         margin: 2rem 0 0 0;
-
-    }  
+    }
+    
 `;
 
 export const Myh1 = styled.h1`
