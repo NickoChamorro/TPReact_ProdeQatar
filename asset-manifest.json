@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/TPReact_ProdeQatar/static/css/main.f131b83c.css",
-    "main.js": "/TPReact_ProdeQatar/static/js/main.6bfc838d.js",
+    "main.css": "/TPReact_ProdeQatar/static/css/main.bfd9c544.css",
+    "main.js": "/TPReact_ProdeQatar/static/js/main.ccca55d9.js",
     "static/media/PelotaQatarSinFondo.png": "/TPReact_ProdeQatar/static/media/PelotaQatarSinFondo.5fcaa544eadb84a9d59a.png",
     "static/media/Qatar2022Arabic-Heavy.ttf": "/TPReact_ProdeQatar/static/media/Qatar2022Arabic-Heavy.92e6394809e6024e9ddc.ttf",
     "static/media/Qatar2022Arabic-Bold.ttf": "/TPReact_ProdeQatar/static/media/Qatar2022Arabic-Bold.6822079ad6ad4f0dbab2.ttf",
+    "static/media/copa3.png": "/TPReact_ProdeQatar/static/media/copa3.7ae6b5382b3abb515bd0.png",
     "static/media/LogoCatarSinFondo.png": "/TPReact_ProdeQatar/static/media/LogoCatarSinFondo.014a527fdc5c55db62d6.png",
     "static/media/Background1.jpg": "/TPReact_ProdeQatar/static/media/Background1.0db0b5b1230804e03be1.jpg",
     "static/media/TituloQatar2.png": "/TPReact_ProdeQatar/static/media/TituloQatar2.eb47e7ca31229ba94161.png",
@@ -26,11 +27,11 @@
     "static/media/espana.png": "/TPReact_ProdeQatar/static/media/espana.09945efd998584311bf1.png",
     "static/media/marruecos.png": "/TPReact_ProdeQatar/static/media/marruecos.6d1b36ede20b7c7d7c29.png",
     "index.html": "/TPReact_ProdeQatar/index.html",
-    "main.f131b83c.css.map": "/TPReact_ProdeQatar/static/css/main.f131b83c.css.map",
-    "main.6bfc838d.js.map": "/TPReact_ProdeQatar/static/js/main.6bfc838d.js.map"
+    "main.bfd9c544.css.map": "/TPReact_ProdeQatar/static/css/main.bfd9c544.css.map",
+    "main.ccca55d9.js.map": "/TPReact_ProdeQatar/static/js/main.ccca55d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f131b83c.css",
-    "static/js/main.6bfc838d.js"
+    "static/css/main.bfd9c544.css",
+    "static/js/main.ccca55d9.js"
   ]
 }
