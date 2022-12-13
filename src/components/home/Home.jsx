@@ -18,7 +18,6 @@ function Home(){
             <DivImg>
                 <ImInicio src= {imgInicio} alt="img_inicio"/>
             </DivImg>
-            <br />
             <Myh1>Prode Qatar 2022</Myh1>
             <Info>
                 Prode Qatar 2022 es un juego online de pronóstico deportivo que incentiva la competencia sana. Diviértete con tus amigos, compañeros de trabajo o estudio, a través de la predicción de los resultados de los partidos del mundial de manera totalmente gratuita.

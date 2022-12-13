@@ -7,28 +7,41 @@ export const DivImg = styled.div`
     position: relative;
     justify-content: right;
     backdrop-filter: initial;
+    border-top: 20px solid transparent;
     @media (max-width: 1094px) {
         justify-content: center;
-        
-    }  
+        background-color: rgba(0,0,0,0.5);
+        border-left: 180px solid rgba(255,255,255,0.5) ;
+        border-right: 180px solid rgba(255,255,255,0.5);
+        /* border-bottom: 20px solid transparent; */
+        border-top: none;
+
+    } 
+    @media (max-width: 750px) {
+        border-left: 110px solid rgba(255,255,255,0.5) ;
+        border-right: 110px solid rgba(255,255,255,0.5);
+    } 
+   
 `;
 
 
 export const ImInicio = styled.img`
-    max-width: 25%;
-    height: auto;
+    max-width: 23%;
+    /* height: auto; */
     position: absolute;
-    margin: 3rem 2rem 0 2rem;
+    margin: 4rem 2rem 0 2rem;
+    /* background-color: rgba(0,0,0,0.5); */
     
-    /* border-radius: 20px;
-    box-shadow: 0 0 50px ; */
     @media (max-width: 1094px) {
         position: relative;
-        margin: 2rem 0 0 0;
-        max-width: 20%;
+        margin: 1rem 0 1rem 0;
+        max-width: 24%;
+        /* background-color: transparent; */
 
     }
-    
+    @media (max-width: 570px) {
+        max-width: 30%;
+    }
 `;
 
 export const Myh1 = styled.h1`
