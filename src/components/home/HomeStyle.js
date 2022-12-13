@@ -15,7 +15,7 @@ export const DivImg = styled.div`
 
 
 export const ImInicio = styled.img`
-    max-width: 30%;
+    max-width: 25%;
     height: auto;
     position: absolute;
     margin: 3rem 2rem 0 2rem;
