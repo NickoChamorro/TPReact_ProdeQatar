@@ -2,7 +2,7 @@ import { Myh1, Info, ContainerButton, ImInicio, DivImg} from "./HomeStyle";
 import { useContextProvider } from "../../contexts/authContext";
 import { useState } from "react";
 import Button from "../commons/button/Button.jsx";
-import imgInicio from '../../img/qatar.jpeg';
+import imgInicio from '../../img/copa3.png';
 
 
 

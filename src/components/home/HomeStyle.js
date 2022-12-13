@@ -18,13 +18,15 @@ export const ImInicio = styled.img`
     max-width: 30%;
     height: auto;
     position: absolute;
-    margin: 8rem 2rem 2rem 2rem;
+    margin: 3rem 2rem 0 2rem;
     
-    border-radius: 20px;
-    box-shadow: 0 0 50px ;
+    /* border-radius: 20px;
+    box-shadow: 0 0 50px ; */
     @media (max-width: 1094px) {
         position: relative;
         margin: 2rem 0 0 0;
+        max-width: 20%;
+
     }
     
 `;
