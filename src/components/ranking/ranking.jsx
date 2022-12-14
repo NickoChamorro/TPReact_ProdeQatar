@@ -23,8 +23,9 @@ function Ranking(){
                 }
                 return 0;
             })
-            setPosiciones(resOrdenado);
-            setLider(resOrdenado[0].usuario);
+            const resSinAdmin = await resOrdenado.filter (fila => fila.admin !== 1 )
+            setPosiciones(resSinAdmin);
+            setLider(resSinAdmin[0].usuario);
         }    
         getUsers()
     },[url]) 
@@ -58,7 +59,7 @@ function Ranking(){
     <h1 style={encabezadoRanking}>Ranking</h1>
     <Marquee string={`${lider} lidera la tabla`}/>
     </header>
-    <CarteleraGanador lider={lider}/> {/* posicion1={posiciones[0].usuario} posicion2={posiciones[1].usuario} posicion3={posiciones[2].usuario} */}
+    <CarteleraGanador lider={lider}/> 
     <table style={tablaRanking}>
         <thead>
         <tr>
