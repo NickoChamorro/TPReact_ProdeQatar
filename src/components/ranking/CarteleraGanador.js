@@ -1,13 +1,9 @@
 import React from 'react';
 
-const CarteleraGanador = (props) => 
-//function CarteleraGanador()
-    {
-    //estos datos deberían venir de una consulta
-    /* console.log(Date.now()); */
-    let cantidadGanadores=1; //provisiorio acá se indica al cantidad de ganadores
+const CarteleraGanador = (props) => {
+    
+    let cantidadGanadores=1; //provisiorio acá se indica la cantidad de ganadores
     let mundialFinalizado=true;//provisorio acá se debería calcular cuando se terminó el mundial
-    let ganador = ['1','2','3']
 
     let encabezadoTarjeta="";
     let textoTarjeta="";
@@ -39,11 +35,11 @@ const CarteleraGanador = (props) =>
                 textoTarjeta=` ${props.lider} se ha consagrado como campeón del torneo`;
                 break;
             case 2:
-                encabezadoTarjeta=`¡Felicitaciones ${ganador[0]} y ${ganador[1]}!`;
-                textoTarjeta=`Los usuarios ${ganador[0]} y ${ganador[1]} se han consagrado como campeones del torneo`;
+                encabezadoTarjeta=`¡Felicitaciones ${props.lider} y ${props.lider}!`;
+                textoTarjeta=`Los usuarios ${props.lider} y ${props.lider} se han consagrado como campeones del torneo`;
                 break;
             case 3:
-                encabezadoTarjeta=`¡Felicitaciones ${ganador[0]}, ${ganador[1]} y ${ganador[2]}!`;
+                encabezadoTarjeta=`¡Felicitaciones ${props.lider}, ${props.lider} y ${props.lider}!`;
                 textoTarjeta="Se han consagrado como campeones del torneo";
                 break;     
         }
