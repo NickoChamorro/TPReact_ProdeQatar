@@ -3,8 +3,11 @@ import styled from "styled-components";
 export const DivTotal = styled.div`
     width: 100%;
     display: flex;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    /* margin-top: 1rem; */
+    /* margin-bottom: 2rem; */
+    @media (max-width: 850px) {
+        padding-bottom: 1rem;
+    } 
     @media (max-width: 684px) {
         flex-direction: column-reverse;
         align-items: center;
@@ -34,6 +37,7 @@ export const DivImg = styled.div`
 
 export const ImgCopa = styled.img`
     width: 100%;
+    max-width: 330px;
     height: auto;
     margin-top: 1rem;
 `;
@@ -57,15 +61,16 @@ export const Info = styled.p`
 `;
 
 export const ContainerButton = styled.div`
-display: flex;
-margin-top: 1rem;
-transition: all .6s ease;
-a:hover{
-    color: ${(props)=>props.theme.colors.whiteBg};
-}
-@media (max-width: 684px) {
+    display: flex;
+    margin-top: 1rem;
+    transition: all .6s ease;
     justify-content: center;
+    a:hover{
+        color: ${(props)=>props.theme.colors.whiteBg};
+    }
+    /* @media (max-width: 684px) {
+        justify-content: center;
 
-}
+    } */
    
 `;

@@ -25,6 +25,8 @@ function Home(){
                     <Myh1>¿Cómo realizar mis predicciones?</Myh1>
                     <Info>
                         Los partidos van a estar disponibles por etapas: fase de grupos, luego octavos, cuartos, semifinales y, por último, tercer y cuarto puesto y final. Las predicciones deben realizarse antes de comenzar los partidos, ese es el tiempo límite para realizar el pronóstico.
+                    </Info>
+                    <Info>    
                         Por cada partido hay 2 botones de check, 1 por cada equipo. Si nuestro pronóstico es que va a ganar un equipo en particular seleccionamos el check de ese equipo, y si creemos que va a ser un empate, seleccionamos los 2. 
                         De octavos en adelante no hay empates, se toma en cuenta el resultado final por más que haya empate en el tiempo reglamentario y vayan a alargue o penales.
                     </Info>
